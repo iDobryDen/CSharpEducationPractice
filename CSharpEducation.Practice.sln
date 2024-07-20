@@ -7,20 +7,33 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1A", "Task1A\Task1A.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1Bb", "Task1Bb\Task1Bb.csproj", "{A3061811-934A-43B2-88E3-7532E474BD8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 1.4 Practice", "Task 1.4 Practice\Task 1.4 Practice.csproj", "{E594FCFB-7033-4833-B4D7-37D89E29AADC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		CheckIn|Any CPU = CheckIn|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EEDCBABE-050A-46AF-BD4A-669800F1DB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EEDCBABE-050A-46AF-BD4A-669800F1DB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEDCBABE-050A-46AF-BD4A-669800F1DB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEDCBABE-050A-46AF-BD4A-669800F1DB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEDCBABE-050A-46AF-BD4A-669800F1DB3A}.CheckIn|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDCBABE-050A-46AF-BD4A-669800F1DB3A}.CheckIn|Any CPU.Build.0 = Debug|Any CPU
 		{A3061811-934A-43B2-88E3-7532E474BD8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A3061811-934A-43B2-88E3-7532E474BD8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3061811-934A-43B2-88E3-7532E474BD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3061811-934A-43B2-88E3-7532E474BD8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3061811-934A-43B2-88E3-7532E474BD8C}.CheckIn|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3061811-934A-43B2-88E3-7532E474BD8C}.CheckIn|Any CPU.Build.0 = Debug|Any CPU
+		{E594FCFB-7033-4833-B4D7-37D89E29AADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E594FCFB-7033-4833-B4D7-37D89E29AADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E594FCFB-7033-4833-B4D7-37D89E29AADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E594FCFB-7033-4833-B4D7-37D89E29AADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E594FCFB-7033-4833-B4D7-37D89E29AADC}.CheckIn|Any CPU.ActiveCfg = Debug|Any CPU
+		{E594FCFB-7033-4833-B4D7-37D89E29AADC}.CheckIn|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
