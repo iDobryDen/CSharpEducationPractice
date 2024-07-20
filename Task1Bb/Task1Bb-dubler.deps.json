@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Task1Bb-dubler/1.0.0": {
+        "runtime": {
+          "Task1Bb-dubler.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Task1Bb-dubler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
