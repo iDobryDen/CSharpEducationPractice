@@ -1,5 +1,12 @@
 ﻿namespace Task2._1;
 
+//1. Объявите переменную следующего вида:
+    //a.целочисленная переменная, обозначающая возраст.
+    //b.строковая переменная для обозначения имени.
+    //c.строковая переменная для обозначения названия компании.
+    //d.переменная логического типа.
+    //e.переменная типа с плавающей точкой для обозначения веса тела человека.
+
 class Program
 {
     static void Main(string[] args)
@@ -8,7 +15,7 @@ class Program
         string Name;
         string CompanyName;
         bool a;
-        float weight;
+        float Weight;
 
         Console.WriteLine("Hello, World!");
     }
