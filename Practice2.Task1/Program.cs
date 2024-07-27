@@ -14,20 +14,48 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("A.");
-        int a = 9;
+        Console.WriteLine("A. цикл for. Пусть он выводит в консоль значение своего же счётчика.");
+        int a = 2;
 
         for (int i = 0; i < a; i++ )
         {
             Console.WriteLine(i);
         }
 
-        Console.WriteLine("B.");
+        Console.WriteLine("B. цикл while. Пусть он выводит в консоль значение своего же счётчика.");
 
         while (a >= 1)
         {
             a--;
             Console.WriteLine(a);
+        }
+
+        Console.WriteLine("C. цикл do while. Пусть он выводит в консоль значение своего же счётчика");
+
+        int Bbb = 2;
+        do
+        {
+            Bbb--;
+            Console.WriteLine(Bbb);
+        }
+        while (Bbb >= 1);
+
+        Console.WriteLine("D. цикл for, в котором у пользователя запрашиваются слова, " +
+                            "затем выводится полная фраза, слова в которой разделены пробелами.");
+
+        string[] phrase = new string[3];
+
+        int phraseLenght = 3;
+
+        for (int k = 0; k < phraseLenght; k++)
+        {
+            Console.WriteLine("Введите слово из фразы");
+            phrase[k] = Console.ReadLine();
+        }
+
+        for (int m = 0; m < phrase.Length; m++)
+        {
+            Console.Write(phrase[m] + " ");
         }
     }
 }
