@@ -36,6 +36,15 @@ class Program
         float speedKPH = speedMPS * 3.6f; // KPH - KilometersPerHour
 
         Console.WriteLine($"Скорость в км/ч равна: " + speedKPH);
+
+        Console.WriteLine(" ");
+        Console.WriteLine("D. градусы C в градусы F.");
+
+        Console.WriteLine("Введите температуру в градусах Цельсия");
+        int celsius = int.Parse(Console.ReadLine());
+        float fahrenheit = (celsius * 9 / 5) + 32;
+
+        Console.WriteLine($"Температура в градусах Фарингейта равна: " + fahrenheit);
     }
 }
 
