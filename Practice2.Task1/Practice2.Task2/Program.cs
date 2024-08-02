@@ -27,6 +27,15 @@ class Program
         long cm = km2 * 1000 * 100;
 
         Console.WriteLine($"Расстояние в сантиметрах равно: " + cm);
+
+        Console.WriteLine(" ");
+        Console.WriteLine("C. м/с в км/ч.");
+
+        Console.WriteLine("Введите скорость в м/с");
+        int speedMPS = int.Parse(Console.ReadLine()); // MPS - MetersPerSecond
+        float speedKPH = speedMPS * 3.6f; // KPH - KilometersPerHour
+
+        Console.WriteLine($"Скорость в км/ч равна: " + speedKPH);
     }
 }
 
