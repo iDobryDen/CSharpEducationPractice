@@ -75,6 +75,28 @@ class Program
             Console.Write(phrase2[count] + " ");
             count++;
         }
+
+        Console.WriteLine(" ");
+        Console.WriteLine("F. цикл do while, в котором у пользователя запрашиваются слова, " +
+                            "затем выводится полная фраза, слова в которой разделены пробелам.");
+
+        string[] phrase3 = new string[4];
+        count = 0;
+        do
+        {
+            Console.WriteLine("Введите слово из фразы");
+            phrase3[count] = Console.ReadLine();
+            count++;
+        }
+        while (count < phrase3.Length);
+
+        count = 0;
+        do
+        {
+            Console.Write(phrase3[count] + " ");
+            count++;
+        }
+        while (count < phrase3.Length);
     }
 }
 
