@@ -18,6 +18,15 @@ class Program
         float km = metrs / 1000f; // Используем 1000f для получения float значения
 
         Console.WriteLine($"Расстояние в километрах равно: " + km);
+
+        Console.WriteLine(" ");
+        Console.WriteLine("B. километры в сантиметры.");
+
+        Console.WriteLine("Введите расстояние в км");
+        int km2 = int.Parse(Console.ReadLine());
+        long cm = km2 * 1000 * 100;
+
+        Console.WriteLine($"Расстояние в сантиметрах равно: " + cm);
     }
 }
 
