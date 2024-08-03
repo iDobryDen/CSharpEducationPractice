@@ -43,7 +43,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Practice3", "Practice3", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice3.Task1", "Practice3.Task1\Practice3.Task1.csproj", "{FC420794-C396-46E9-AC69-C7EB3745E49A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice3.Task2 done", "Practice3.Task1\Practice3.Task2 done\Practice3.Task2 done.csproj", "{7584CD31-35AC-42C7-858D-B5ED7F14CD3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice3.Task2", "Practice3.Task1\Practice3.Task2 done\Practice3.Task2.csproj", "{7584CD31-35AC-42C7-858D-B5ED7F14CD3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
