@@ -43,6 +43,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Practice3", "Practice3", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice3.Task1", "Practice3.Task1\Practice3.Task1.csproj", "{FC420794-C396-46E9-AC69-C7EB3745E49A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice3.Task2 done", "Practice3.Task1\Practice3.Task2 done\Practice3.Task2 done.csproj", "{7584CD31-35AC-42C7-858D-B5ED7F14CD3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -152,6 +154,12 @@ Global
 		{FC420794-C396-46E9-AC69-C7EB3745E49A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FC420794-C396-46E9-AC69-C7EB3745E49A}.CheckIn|Any CPU.ActiveCfg = Debug|Any CPU
 		{FC420794-C396-46E9-AC69-C7EB3745E49A}.CheckIn|Any CPU.Build.0 = Debug|Any CPU
+		{7584CD31-35AC-42C7-858D-B5ED7F14CD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7584CD31-35AC-42C7-858D-B5ED7F14CD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7584CD31-35AC-42C7-858D-B5ED7F14CD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7584CD31-35AC-42C7-858D-B5ED7F14CD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7584CD31-35AC-42C7-858D-B5ED7F14CD3E}.CheckIn|Any CPU.ActiveCfg = Debug|Any CPU
+		{7584CD31-35AC-42C7-858D-B5ED7F14CD3E}.CheckIn|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -177,5 +185,6 @@ Global
 		{9D658128-7B3F-41DE-BB31-9AD126128DAD} = {0DE60A77-667E-4551-B42A-12B8E09AB439}
 		{EBF8A8C0-A1BA-4CE7-B58E-6BAFACC63D25} = {0DE60A77-667E-4551-B42A-12B8E09AB439}
 		{FC420794-C396-46E9-AC69-C7EB3745E49A} = {F0CBEE05-3D25-4DC5-AC0E-5559D170E95A}
+		{7584CD31-35AC-42C7-858D-B5ED7F14CD3E} = {F0CBEE05-3D25-4DC5-AC0E-5559D170E95A}
 	EndGlobalSection
 EndGlobal
