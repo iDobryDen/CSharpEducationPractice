@@ -3,15 +3,28 @@ namespace Practice5.Task1
 {
 	public class Manager : Employee
 	{
-		public Manager(string name, double salary) : base (name, salary)
-		{
-		}
+        int TeamSize;
 
-        public int CalculateBonus(double Salary)
+        public Manager(string name, double salary, int TeamSize) : base (name, salary)
+		{
+            this.TeamSize = TeamSize;
+        }
+
+        public new int CalculateBonus(double Salary)
         {
-            double per = Salary * 0.2;
-            return (int)Math.Round(per);
+            if (TeamSize < 5)
+            {
+                double per = Salary * 0.2;
+                return (int)Math.Round(per);
+            }
+            else
+            {
+                double per = Salary * 0.25;
+                return (int)Math.Round(per);
+            }
+            
         }
     }
 }
+
 

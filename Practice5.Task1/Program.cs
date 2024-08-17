@@ -20,7 +20,7 @@ class Program
     static void Main(string[] args)
     {
         Employee employee = new Employee("Ivan", 20000);
-        Manager manager = new Manager("Roman", 30000);
+        Manager manager = new Manager("Roman", 30000, 4);
 
         Print(employee);
         Console.WriteLine("----------------");
