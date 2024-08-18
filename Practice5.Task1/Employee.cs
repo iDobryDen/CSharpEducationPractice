@@ -12,7 +12,6 @@ namespace Practice5.Task1
         {
 			this.Name = name;
             this.Salary = salary;
-
         }
 
         public int CalculateBonus(double Salary)
@@ -20,7 +19,6 @@ namespace Practice5.Task1
 			double per = Salary * 0.1;
             return (int)Math.Round(per);
         }
-
     }
 }
 

@@ -8,7 +8,7 @@ namespace Practice5.Task1;
 //      который переопределяет метод CalculateBonus(), чтобы возвращать 20% от зарплаты. Создайте объекты обоих классов, вызовите
 //      метод и выведите результат на экран.
 //  b.Расширьте класс Employee, добавив конструктор, принимающий имя и зарплату. В классе Manager добавьте
-//      дополнительное поле TeamSize.Реализуйте конструктор в классе Manager, который вызывает конструктор базового класса
+//      дополнительное поле TeamSize. Реализуйте конструктор в классе Manager, который вызывает конструктор базового класса
 //      с помощью base и устанавливает значение TeamSize. В методе CalculateBonus() учитывайте размер команды: если команда больше 5 человек,
 //      бонус должен увеличиваться на 5%.
 //  c.Создайте новый класс Contractor, унаследованный от Employee, который добавляет поле HourlyRate и скрывает метод CalculateBonus(),
@@ -20,11 +20,14 @@ class Program
     static void Main(string[] args)
     {
         Employee employee = new Employee("Ivan", 20000);
-        Manager manager = new Manager("Roman", 30000, 4);
+        Manager manager = new Manager("Roman", 30000, 6);
+        Contractor contractor = new Contractor("Bolvan", 10000, 100, 8);
 
         Print(employee);
         Console.WriteLine("----------------");
         Print(manager);
+        Console.WriteLine("----------------");
+        Print(contractor);
     }
 
     static void Print(Employee employee)
@@ -39,6 +42,13 @@ class Program
         Console.WriteLine(manager.Name);
         Console.WriteLine(manager.Salary);
         Console.WriteLine(manager.CalculateBonus(manager.Salary));
+    }
+    
+    static void Print(Contractor contractor)
+    {
+        Console.WriteLine(contractor.Name);
+        Console.WriteLine(contractor.Salary);
+        Console.WriteLine(contractor.CalculateBonus(contractor.HourlyRate));
     }
 }
 
