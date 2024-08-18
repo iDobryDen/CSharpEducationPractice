@@ -3,6 +3,7 @@ namespace Practice5.Task1;
 public class Contractor : Employee
 {
     public int HourlyRate;
+    public int HoursWorked;
 
     public Contractor(string name, double salary, int HourlyRate, int HoursWorked) : base (name, salary)
     {
