@@ -14,7 +14,7 @@ namespace Practice5.Task1
             this.Salary = salary;
         }
 
-        public int CalculateBonus(double Salary)
+        public virtual int CalculateBonus(double Salary)
         {
 			double per = Salary * 0.1;
             return (int)Math.Round(per);

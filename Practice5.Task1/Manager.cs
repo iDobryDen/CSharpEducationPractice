@@ -22,7 +22,6 @@ namespace Practice5.Task1
                 double per = Salary * 0.25;
                 return (int)Math.Round(per);
             }
-            
         }
     }
 }
