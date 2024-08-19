@@ -9,6 +9,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Введите строку:");
+        string inputString = Console.ReadLine();
+
+        Console.WriteLine("Верхний регистр:");
+        Console.WriteLine(inputString.ToUpper());
+
+        Console.WriteLine("Нижний регистр:");
+        string lowerString = inputString.ToLower();
+        Console.WriteLine(lowerString);
+        
+        char firstSumbol = lowerString[0];
+        char upperFirstSumbol = char.ToUpper(firstSumbol);
+        string titleSumbolString = upperFirstSumbol + lowerString.Substring(1);
+        
+        Console.WriteLine("Заглавная буква:");
+        Console.WriteLine(titleSumbolString);
     }
 }
